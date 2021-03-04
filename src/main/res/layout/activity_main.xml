@@ -1,29 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:backgroundTint="#FFFFFF">
+    android:layout_height="match_parent">
 
 
     <TextView
-        android:id="@+id/textViewNumber"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="269dp"
-        android:layout_marginEnd="120dp"
-        android:text="Dice Roller!"
-        android:textSize="30sp" />
-
-    <Button
-        android:id="@+id/buttonRandom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="373dp"
-        android:layout_marginEnd="156dp"
-        android:text="ROLL" />
+        android:layout_marginTop="79dp"
+        android:text="@string/aleks_heacky"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:scrollbarSize="10dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="221dp"
+        android:text="@string/hi_my_name_is_aleks"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="276dp"
+        android:text="@string/i_love_fish"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/the_kind_that_is_alive_and_swims_around_in_an_aquarium_or_river_or_a_lake_and_deinitely_the_ocean"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/fun_fact_is_that_i_have_several_aquariums_and_also_a_river"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="164dp"
+        android:text="@string/i_like_eating_fish_too_raw_fish_grilled_fish_smoked_fish_poached_fish_not_so_much_and_sometime_i_even_go_fishing_and_even_less_sometimes_i_actually_catch_some_thing"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="87dp"
+        android:text="@string/one_when_i_was_camping_in_canada_and"
+        android:textSize="18sp" />
+
 </RelativeLayout>

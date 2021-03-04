@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Dice Roller</string>
+    <string name="app_name">AboutMe</string>
+    <string name="the_kind_that_is_alive_and_swims_around_in_an_aquarium_or_river_or_a_lake_and_deinitely_the_ocean">The kind that is alive and swims around in an aquarium or river, or a lake, and deinitely the ocean.</string>
+    <string name="aleks_heacky">Aleks Heacky</string>
+    <string name="hi_my_name_is_aleks">Hi my name is Aleks.</string>
+    <string name="i_love_fish">I love fish.</string>
+    <string name="fun_fact_is_that_i_have_several_aquariums_and_also_a_river">Fun fact is that i have several aquariums and also a river.</string>
+    <string name="i_like_eating_fish_too_raw_fish_grilled_fish_smoked_fish_poached_fish_not_so_much_and_sometime_i_even_go_fishing_and_even_less_sometimes_i_actually_catch_some_thing">I like eating fish, too. Raw fish, Grilled fish. Smoked fish Poached fish - not so much. And sometime I even go fishing. And even less sometimes, i actually catch some thing.</string>
+    <string name="one_when_i_was_camping_in_canada_and">One, when i was camping in Canada, and</string>
+    <string name="todo">TODO</string>
 </resources>
